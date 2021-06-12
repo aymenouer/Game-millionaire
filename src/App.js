@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Quiz from './components/Quiz';
 import "./App.css";
 function App() {
   // 1 pour le premier question qui va etre afficher
@@ -27,13 +28,13 @@ function App() {
      <div className="top">
      <div className="timer">30</div>
      </div>
-     <div className="bottom">question and answer</div>
+     <div className="bottom"><Quiz/></div>
      </div>
      <div className="pyramid">
     <ul className="moneyList">
       {
         moneyPyramid.map(m=>(
-<li className={questionNumber == m.id ? "moneyListItem active": "moneyListItem"}>
+<li className={questionNumber === m.id ? "moneyListItem active": "moneyListItem"}>
   <span className="moneyListItemNumber">{m.id}</span>
   <span className="moneyListItemAmount">{m.amount}</span>
 </li>
