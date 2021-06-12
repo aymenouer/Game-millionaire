@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   // 1 pour le premier question qui va etre afficher
   const [questionNumber, setQuestionNumber]=useState(1)
-  const [timeOut, setTimeOut]=useState(false)
+  const [stop, setStop]=useState(false)
   const data = [
     {
       id:1,
@@ -98,7 +98,7 @@ function App() {
      <div className="top">
      <div className="timer">30</div>
      </div>
-     <div className="bottom"><Quiz data={data} questionNumber={questionNumber} setTimeOut={setTimeOut} setQuestionNumber={setQuestionNumber}  /></div>
+     <div className="bottom"><Quiz data={data} questionNumber={questionNumber} setStop={setStop} setQuestionNumber={setQuestionNumber}  /></div>
      </div>
      <div className="pyramid">
     <ul className="moneyList">
