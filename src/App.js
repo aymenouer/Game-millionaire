@@ -1,5 +1,8 @@
+import { useState } from "react";
 import "./App.css";
 function App() {
+  // 1 pour le premier question qui va etre afficher
+  const [questionNumber, setQuestionNumber]=useState(5)
   const moneyPyramid = [
     {id:1 , amount:"100 DT"},
     {id:2 , amount:"200 DT"},
@@ -21,13 +24,16 @@ function App() {
   return (
     <div className="App">
      <div className="main">
-     main
+     <div className="top">
+     <div className="timer">30</div>
+     </div>
+     <div className="bottom">question and answer</div>
      </div>
      <div className="pyramid">
     <ul className="moneyList">
       {
         moneyPyramid.map(m=>(
-<li className="moneyListItem">
+<li className={questionNumber == m.id ? "moneyListItem active": "moneyListItem"}>
   <span className="moneyListItemNumber">{m.id}</span>
   <span className="moneyListItemAmount">{m.amount}</span>
 </li>
