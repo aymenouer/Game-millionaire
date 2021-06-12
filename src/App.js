@@ -3,7 +3,77 @@ import Quiz from './components/Quiz';
 import "./App.css";
 function App() {
   // 1 pour le premier question qui va etre afficher
-  const [questionNumber, setQuestionNumber]=useState(5)
+  const [questionNumber, setQuestionNumber]=useState(1)
+  const [timeOut, setTimeOut]=useState(false)
+  const data = [
+    {
+      id:1,
+      question: "Quelle méthode de React Component est appelé après le composant est rendu pour la première fois?",
+      answers: [
+        {
+          text:"componentDidUpdate",
+          correct: false,
+        },
+        {
+          text:"componentDidMount",
+          correct: true,
+        },
+        {
+          text:"componentMounted",
+          correct: false,
+        },
+        {
+          text:"componentUpdated",
+          correct: false,
+        },
+      ]
+    },
+    {
+      id:2,
+      question: "React est principalement utilisé pour construire ___",
+      answers: [
+        {
+          text:"Base de données",
+          correct: false,
+        },
+        {
+          text:"Connectivité",
+          correct: false,
+        },
+        {
+          text:"Interface d'utilisateur",
+          correct: true,
+        },
+        {
+          text:"Plateforme de conception",
+          correct: false,
+        },
+      ]
+    },
+    {
+      id:3,
+      question: "Chkun hamas ? (aymen ouerghui maythatech khatr mynjmch ykoun hamas )",
+      answers: [
+        {
+          text:"Sabrine flis",
+          correct: false,
+        },
+        {
+          text:"Chekib haji",
+          correct: true,
+        },
+        {
+          text:"Najiba amri",
+          correct: false,
+        },
+        {
+          text:"siwar hassen",
+          correct: false,
+        },
+      ]
+    },
+
+  ];
   const moneyPyramid = [
     {id:1 , amount:"100 DT"},
     {id:2 , amount:"200 DT"},
@@ -28,7 +98,7 @@ function App() {
      <div className="top">
      <div className="timer">30</div>
      </div>
-     <div className="bottom"><Quiz/></div>
+     <div className="bottom"><Quiz data={data} questionNumber={questionNumber} setTimeOut={setTimeOut} setQuestionNumber={setQuestionNumber}  /></div>
      </div>
      <div className="pyramid">
     <ul className="moneyList">
