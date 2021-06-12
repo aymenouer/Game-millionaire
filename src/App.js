@@ -1,12 +1,14 @@
 import { useEffect, useMemo, useState } from "react";
 import Quiz from './components/Quiz';
 import Timer from './components/Timer';
+import Start from  './components/Start'
 import "./App.css";
 function App() {
   // 1 pour le premier question qui va etre afficher
   const [questionNumber, setQuestionNumber] = useState(1)
   const [stop, setStop] = useState(false)
   const [earned, setEarned] = useState("0 DT")
+  const [username,setUsername]=useState(null)
   const data = [
     {
       id: 1,
@@ -101,7 +103,9 @@ function App() {
   }, [moneyPyramid, questionNumber])
   return (
     <div className="App">
-      <div className="main">
+      {username ? (<>
+        <div className="main">
+        <div className="Name">{username} </div>
         {stop ? <h1 className="endText" >You earned: {earned} </h1> : (
           <>
             <div className="top">
@@ -141,7 +145,12 @@ function App() {
 
         </ul>
       </div>
-    </div>
+    
+      
+      
+       </>) 
+       : <Start  setUsername={setUsername} />}
+ </div>
   );
 }
 
