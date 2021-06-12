@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import Quiz from './components/Quiz';
+import Timer from './components/Timer';
 import "./App.css";
 function App() {
   // 1 pour le premier question qui va etre afficher
@@ -75,7 +76,7 @@ function App() {
     },
 
   ];
-  const moneyPyramid = useMemo(() => 
+  const moneyPyramid = useMemo(() =>
     [
       { id: 1, amount: "100 DT" },
       { id: 2, amount: "200 DT" },
@@ -104,7 +105,11 @@ function App() {
         {stop ? <h1 className="endText" >You earned: {earned} </h1> : (
           <>
             <div className="top">
-              <div className="timer">30</div>
+              <div className="timer">
+                <Timer
+                  setStop={setStop}
+                  questionNumber={questionNumber}
+                /></div>
             </div>
             <div className="bottom">
               <Quiz
