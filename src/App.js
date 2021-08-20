@@ -56,27 +56,70 @@ function App() {
     },
     {
       id: 3,
-      question: "Chkun hamas ? (aymen ouerghui maythatech khatr mynjmch ykoun hamas )",
+      question: "In the UK, the abbreviation NHS stands for National what Service?",
       answers: [
         {
-          text: "Sabrine flis",
+          text: "Humanity",
           correct: false,
         },
         {
-          text: "Chekib haji",
+          text: "Health",
           correct: true,
         },
         {
-          text: "Najiba amri",
+          text: "Honour",
           correct: false,
         },
         {
-          text: "siwar hassen",
+          text: "Household",
           correct: false,
         },
       ]
     },
-
+    {
+      id: 4,
+      question: "Which Disney character famously leaves a glass slipper behind at a royal ball?",
+      answers: [
+        {
+          text: "Elsa",
+          correct: false,
+        },
+        {
+          text: "Sleeping Beauty",
+          correct: false,
+        },
+        {
+          text: "Cinderella",
+          correct: true,
+        },
+        {
+          text: "Pocahontas",
+          correct: false,
+        },
+      ]
+    },
+    {
+      id: 5,
+      question: "What name is given to the revolving belt machinery in an airport that delivers checked luggage from the plane to baggage reclaim?",
+      answers: [
+        {
+          text: "Hangar",
+          correct: false,
+        },
+        {
+          text: "Terminal",
+          correct: false,
+        },
+        {
+          text: "Concourse",
+          correct: false,
+        },
+        {
+          text: "Carousel",
+          correct: true,
+        },
+      ]
+    },
   ];
   const moneyPyramid = useMemo(() =>
     [
