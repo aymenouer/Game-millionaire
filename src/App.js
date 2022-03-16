@@ -12,110 +12,110 @@ function App() {
   const data = [
     {
       id: 1,
-      question: "Quelle méthode de React Component est appelé après le composant est rendu pour la première fois?",
+      question: "1 + 1 = ?",
       answers: [
         {
-          text: "componentDidUpdate",
+          text: "0",
           correct: false,
         },
         {
-          text: "componentDidMount",
+          text: "2",
           correct: true,
         },
         {
-          text: "componentMounted",
+          text: "5",
           correct: false,
         },
         {
-          text: "componentUpdated",
+          text: "1",
           correct: false,
         },
       ]
     },
     {
       id: 2,
-      question: "React est principalement utilisé pour construire ___",
+      question: "11 * 11 = ?",
       answers: [
         {
-          text: "Base de données",
+          text: "11",
           correct: false,
         },
         {
-          text: "Connectivité",
+          text: "12",
           correct: false,
         },
         {
-          text: "Interface d'utilisateur",
+          text: "121",
           correct: true,
         },
         {
-          text: "Plateforme de conception",
+          text: "111",
           correct: false,
         },
       ]
     },
     {
       id: 3,
-      question: "In the UK, the abbreviation NHS stands for National what Service?",
+      question: "5 - 5 = ?",
       answers: [
         {
-          text: "Humanity",
+          text: "1",
           correct: false,
         },
         {
-          text: "Health",
+          text: "0",
           correct: true,
         },
         {
-          text: "Honour",
+          text: "2",
           correct: false,
         },
         {
-          text: "Household",
+          text: "5",
           correct: false,
         },
       ]
     },
     {
       id: 4,
-      question: "Which Disney character famously leaves a glass slipper behind at a royal ball?",
+      question: "9 * 9 = ?",
       answers: [
         {
-          text: "Elsa",
-          correct: false,
-        },
-        {
-          text: "Sleeping Beauty",
-          correct: false,
-        },
-        {
-          text: "Cinderella",
+          text: "81",
           correct: true,
         },
         {
-          text: "Pocahontas",
+          text: "0",
+          correct: false,
+        },
+        {
+          text: "5",
+          correct: false,
+        },
+        {
+          text: "9",
           correct: false,
         },
       ]
     },
     {
       id: 5,
-      question: "What name is given to the revolving belt machinery in an airport that delivers checked luggage from the plane to baggage reclaim?",
+      question: "100 + 90 - 50 + 10 = ?",
       answers: [
         {
-          text: "Hangar",
+          text: "100",
           correct: false,
         },
         {
-          text: "Terminal",
+          text: "200",
           correct: false,
         },
         {
-          text: "Concourse",
+          text: "5000",
           correct: false,
         },
         {
-          text: "Carousel",
+          text: "150",
           correct: true,
         },
       ]
