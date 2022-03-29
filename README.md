@@ -24,14 +24,8 @@
 
 ## Features
 
-- A list of the most popular **repositories** of the last week should be displayed and the user should be able to star them.🌟
-- The starred **repositories** is visible in a different tab.
-- Some basic info about the repo is displayed, such as: repo name, link to GitHub, description and number of stars.
-- 2 Types of Pagination (the list is huge).
-- Lazy loading of the cards (load the cards after the app has initiated)
-- The starring won’t be sent back to GitHub’s servers but just stored in localStorage.
-- A programming language filter
-- A Notification when you rate a repo
+- A Music when you launch the game🌟
+- Waiting 3 seconds when responding.
 
 
 ## Development
