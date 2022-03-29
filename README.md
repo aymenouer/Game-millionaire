@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Game App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Code Size](https://img.shields.io/github/languages/code-size/aymenouer/Game-millionaire)](https://img.shields.io/github/languages/top/aymenouer/Game-millionaire)
+[![Language](https://img.shields.io/github/languages/top/aymenouer/Game-millionaire)](https://img.shields.io/github/languages/top/aymenouer/Game-millionaire)
+[![Stars](https://img.shields.io/github/stars/aymenouer/Game-millionairet?style=social)](https://img.shields.io/github/stars/aymenouer/Game-millionaire?style=social)
 
-## Available Scripts
 
-In the project directory, you can run:
+:star: Star on GitHub — it motivates Me a lot!
 
-### `npm start`
+[Game App](https://aymengamequiz.herokuapp.com/) is a Game application where you need to responde to all questions to get to the next level and to gain money .
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
+<h3>Technologies:</h3>
+<a href="https://reactjs.org/"><img src="https://img.shields.io/badge/-React-313131?style=flat-square&labelColor=313131&logo=react&logoColor=white&color=313131"></img></a><a href="https://www.w3schools.com/html/html_intro.asp"><img src="https://img.shields.io/badge/-HTML5-313131?style=flat-square&labelColor=313131&logo=html5&logoColor=white&color=313131"></img></a><a href="https://www.w3schools.com/css/css_intro.asp"><img src="https://img.shields.io/badge/-CSS3-313131?style=flat-square&labelColor=313131&logo=css3&logoColor=white&color=313131"></img></a><a href="https://www.javascript.com"><img src="https://img.shields.io/badge/-Javascript-313131?style=flat-square&labelColor=313131&logo=javascript&logoColor=white&color=313131"></img></a><a href="https://code.visualstudio.com"><img src="https://img.shields.io/badge/-Visual Studio Code-313131?style=flat-square&labelColor=313131&logo=visual-studio-code&logoColor=white&color=313131"></img></a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- App DESGIN  -->
+## APP DESGIN 
+| Game APP |
+| --- |
+![millionaire](https://user-images.githubusercontent.com/49178153/160589117-346b167b-6dbc-41ce-9bc0-19d0b39e31e5.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## [Demo 💥](https://aymengamequiz.herokuapp.com/)
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- A list of the most popular **repositories** of the last week should be displayed and the user should be able to star them.🌟
+- The starred **repositories** is visible in a different tab.
+- Some basic info about the repo is displayed, such as: repo name, link to GitHub, description and number of stars.
+- 2 Types of Pagination (the list is huge).
+- Lazy loading of the cards (load the cards after the app has initiated)
+- The starring won’t be sent back to GitHub’s servers but just stored in localStorage.
+- A programming language filter
+- A Notification when you rate a repo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Development
 
-### `npm run eject`
+_Easily set up a local development environment!_
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- clone
+- `npm install`
+- `npm start`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Start coding!** 🎉
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Feedback 
+Any questions or suggestions?
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You are welcome to discuss it on:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aymen-ouerghi-249632146/)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br/>
+<br/>
